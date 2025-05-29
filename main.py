@@ -1,5 +1,9 @@
+# program to print the normal words
+
 print("hello, this is code with harry");
 print("this is rozy, ur love");
+
+# program to print  twinkle twinkle  little start 
 
 
 print('''Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high,
@@ -13,9 +17,33 @@ As your bright and tiny spark lights the traveler in the dark, though I know not
 are, twinkle, twinkle, little star. Twinkle, twinkle, little star, how I wonder what you are.''')
 
 
+
+
 '''This is multiline strings'''
 
 # this is singleline strings
 
-# I love koding 
+# I love koding
 
+# the library in python which can talk  
+
+import pyttsx3
+engine = pyttsx3.init()
+engine.say(" My father is rajan and mother is reena")
+engine.runAndWait()
+
+import os
+
+# specify the directory you want to list 
+
+directory_path = '/'
+
+# list all the directories in the specified path
+
+contents = os.listdir(directory_path)
+
+# print each file and directory name 
+
+ for item in contents:
+ 
+    print(item)
