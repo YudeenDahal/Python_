@@ -29,7 +29,8 @@ are, twinkle, twinkle, little star. Twinkle, twinkle, little star, how I wonder 
 
 import pyttsx3
 engine = pyttsx3.init()
-engine.say(" My father is rajan and mother is reena")
+engine.say (""" A dream-chaser from Nepal with a passion for tech 
+Learning AI, coding, and business """)
 engine.runAndWait()
 
 import os
@@ -44,6 +45,30 @@ contents = os.listdir(directory_path)
 
 # print each file and directory name 
 
- for item in contents:
+for item in contents:
  
     print(item)
+
+#Use of variable in python, variable is the container which stores the value 
+
+a = 1
+
+b = 7
+
+name = "harry"
+
+print (a+b)
+
+print(name)
+
+a = 1 #this is a integer
+
+b = 2.44 #this is a floating point number 
+
+c = "Yudeen" #this is a variable 
+
+d = False # this is a boolean variable 
+
+e = None #this is a none variable 
+
+
